@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COVID-19 on Bruno V. Ribeiro - Home</title>
+    <link>https://brunobvr.github.io/my_portfolio/tags/covid-19/</link>
+    <description>Recent content in COVID-19 on Bruno V. Ribeiro - Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Healthy: Eating habits and COVID-19 impact</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</guid>
+      <description>In this project, I use data from food intake by countries along with data associated with the spread of COVID-19 and other health issues to help get new insights into the importance of nutrition and eating habits to combat spreading diseases.
+Data for this project is taken from this very interesting kaggle dataset. From the owner of the dataset:
+ In this dataset, I have combined data of different types of food, world population obesity and undernourished rate, and global COVID-19 cases count from around the world in order to learn more about how a healthy eating style could help combat the Corona Virus.</description>
+    </item>
+    
+  </channel>
+</rss>

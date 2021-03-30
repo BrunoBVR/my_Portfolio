@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dash on Bruno V. Ribeiro - Home</title>
+    <link>https://brunobvr.github.io/my_portfolio/tags/dash/</link>
+    <description>Recent content in Dash on Bruno V. Ribeiro - Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/dash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Games: Metacritic Video Games data and recommender</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectgames/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectgames/</guid>
+      <description>In this project I collect data from Metacritic to do some basic EDA and build a content-based recommender system. The final recommender is deployed using Dash and all coding is done in Python.
+Scraping games info from metacritic The scraper is found on scraper.ipynb. Requires requests, bs4.BeautifulSoup, re and pandas.
+The final dataset is on file games-data.csv.
+We will use Metacritic data to create a dataframe with data on games across all platforms and all time.</description>
+    </item>
+    
+    <item>
+      <title>Project Ludopedia: exploring relations between boardgames artists</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectludo/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectludo/</guid>
+      <description>In this project we will go through our collected data from Ludopedia ranking of boardgames. We&amp;rsquo;ll perform basic data cleaning and EDA.
+The data was collected using the Scrapy framework. The scraper is found inside the scraper folder. The relevant files in this folder are:
+ ludo/ludo/items.py: defines the features we&amp;rsquo;ll extract from the website. ludo/ludo/spiders/ludospider.py: defines the paths of each item of each game.  The final data set is pre-saved ins this repository under the name ludo/ludo/all_pages2.</description>
+    </item>
+    
+    <item>
+      <title>Project Healthy: Eating habits and COVID-19 impact</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</guid>
+      <description>In this project, I use data from food intake by countries along with data associated with the spread of COVID-19 and other health issues to help get new insights into the importance of nutrition and eating habits to combat spreading diseases.
+Data for this project is taken from this very interesting kaggle dataset. From the owner of the dataset:
+ In this dataset, I have combined data of different types of food, world population obesity and undernourished rate, and global COVID-19 cases count from around the world in order to learn more about how a healthy eating style could help combat the Corona Virus.</description>
+    </item>
+    
+  </channel>
+</rss>

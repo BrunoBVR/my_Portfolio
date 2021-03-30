@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Portfolio on Bruno V. Ribeiro - Home</title>
+    <link>https://brunobvr.github.io/my_portfolio/</link>
+    <description>Recent content in Data Portfolio on Bruno V. Ribeiro - Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Mushrooms: Fun with the mushroom dataset</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectmushroom/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectmushroom/</guid>
+      <description>In this project we dig into the mushroom data set. With very simple algorithms (decision trees) we can archive that sweat 100% accuracy. To make the experience more fun, a streamlit app is created that let&amp;rsquo;s you control a few hyperparameters of the model to see how you can maximize accuracy. If you reach 100% you get some cool balloons (yay!).
+The mushroom data set has been contributed to the UCI Machine Learning over 30 years ago.</description>
+    </item>
+    
+    <item>
+      <title>Project Games: Metacritic Video Games data and recommender</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectgames/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectgames/</guid>
+      <description>In this project I collect data from Metacritic to do some basic EDA and build a content-based recommender system. The final recommender is deployed using Dash and all coding is done in Python.
+Scraping games info from metacritic The scraper is found on scraper.ipynb. Requires requests, bs4.BeautifulSoup, re and pandas.
+The final dataset is on file games-data.csv.
+We will use Metacritic data to create a dataframe with data on games across all platforms and all time.</description>
+    </item>
+    
+    <item>
+      <title>Project Ludopedia: exploring relations between boardgames artists</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectludo/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectludo/</guid>
+      <description>In this project we will go through our collected data from Ludopedia ranking of boardgames. We&amp;rsquo;ll perform basic data cleaning and EDA.
+The data was collected using the Scrapy framework. The scraper is found inside the scraper folder. The relevant files in this folder are:
+ ludo/ludo/items.py: defines the features we&amp;rsquo;ll extract from the website. ludo/ludo/spiders/ludospider.py: defines the paths of each item of each game.  The final data set is pre-saved ins this repository under the name ludo/ludo/all_pages2.</description>
+    </item>
+    
+    <item>
+      <title>Project Healthy: Eating habits and COVID-19 impact</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</guid>
+      <description>In this project, I use data from food intake by countries along with data associated with the spread of COVID-19 and other health issues to help get new insights into the importance of nutrition and eating habits to combat spreading diseases.
+Data for this project is taken from this very interesting kaggle dataset. From the owner of the dataset:
+ In this dataset, I have combined data of different types of food, world population obesity and undernourished rate, and global COVID-19 cases count from around the world in order to learn more about how a healthy eating style could help combat the Corona Virus.</description>
+    </item>
+    
+    <item>
+      <title>Project Epidemic Models: Basic Epidemic models done in Python</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectepmodels/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectepmodels/</guid>
+      <description>In this fun project we explore the most basic mathematical models for epidemiology: the SIR and the SEIR models Read the Wikipedia on these.
+The SIR model is implemented in OO style with options for integration with simple Euler scheme or with a second order Runge-Kutta scheme. Besides this straight integration, we implement a Gillespie algorithm to run stochastic experiments here. As this is a variant of a dynamic Monte Carlo method, we can run various experiments using multiprocessing (from the multiprocessing python library).</description>
+    </item>
+    
+    <item>
+      <title>Academic work</title>
+      <link>https://brunobvr.github.io/my_portfolio/academic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/academic/</guid>
+      <description>A list with publications (mainly involving theoretical physics and numerical modeling):
+PUBLICATIONS
+ MIRANDA FILHO, L. H., RIBEIRO, B. V., ROCHA, PAULO M.M., SANTOS, DANIEL D.A., &amp;amp; SENA, NATÁLIA C. DE. (2020). Surviving the Zombie Apocalypse: A Population Dynamics Based Approach. Revista Brasileira de Ensino de Física, 42, e20200071. Epub June 22, 2020. Check it out here! RIBEIRO, B. V.; AMATO, M. A.; ELSKENS, Y.: Brownian regime of finite N corrections to particle motion in the XY Hamiltonian mean field model.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://brunobvr.github.io/my_portfolio/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/contact/</guid>
+      <description>Get in touch or see some of my work:
+   Platform Link     E-mail: bruno64bits@gmail.com   LinkedIn: https://www.linkedin.com/in/bruno-vieira-ribeiro-a1b1b259/   GitHub: https://github.com/BrunoBVR    </description>
+    </item>
+    
+  </channel>
+</rss>

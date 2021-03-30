@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recommender on Bruno V. Ribeiro - Home</title>
+    <link>https://brunobvr.github.io/my_portfolio/tags/recommender/</link>
+    <description>Recent content in Recommender on Bruno V. Ribeiro - Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/recommender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Games: Metacritic Video Games data and recommender</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectgames/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectgames/</guid>
+      <description>In this project I collect data from Metacritic to do some basic EDA and build a content-based recommender system. The final recommender is deployed using Dash and all coding is done in Python.
+Scraping games info from metacritic The scraper is found on scraper.ipynb. Requires requests, bs4.BeautifulSoup, re and pandas.
+The final dataset is on file games-data.csv.
+We will use Metacritic data to create a dataframe with data on games across all platforms and all time.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Bruno V. Ribeiro - Home</title>
+    <link>https://brunobvr.github.io/my_portfolio/tags/</link>
+    <description>Recent content in Tags on Bruno V. Ribeiro - Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EDA</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/eda/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/eda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streamlit</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/streamlit/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/streamlit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dash</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/dash/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/dash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recommender</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/recommender/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/recommender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scraping</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/scraping/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/scraping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/covid-19/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From scratch</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/from-scratch/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/from-scratch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>numerical models</title>
+      <link>https://brunobvr.github.io/my_portfolio/tags/numerical-models/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/tags/numerical-models/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
