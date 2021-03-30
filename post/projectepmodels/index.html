@@ -208,34 +208,34 @@
 <p>The <strong>SEIR model</strong> is <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SEIR/SEIR.py">implemented</a> in a functional way and we also included a <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SEIR/SEIR-GP.py">Gillespie run</a> of the model.</p>
 <p>To do a bit of visual exploring of the model, a <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SEIR/SEIR.ipynb">notebook</a> is provided for various scenarios of the SEIR model run. The fundamental curves for the populations in this model can be seen bellow.</p>
 <figure>
-    <img src="/images/basicSEIR.png"/> <figcaption>
+    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/basicSEIR.png"/> <figcaption>
             <h4>Typical evolution of populations in the SEIR model.</h4>
         </figcaption>
 </figure>
 
 <p>We can simulate a reduction in contacts by reducing the <em>basic reproduction number (average of individuals infected by an infected individual during infectation)</em>. Results are shown in the evolution of infected individuals bellow.</p>
 <figure>
-    <img src="/images/epidemics/R-red.png"/> <figcaption>
+    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/R-red.png"/> <figcaption>
             <h4>Evolution of infected individuals with various values of reduction in the basic reproduction number.</h4>
         </figcaption>
 </figure>
 
 <p>Instead of reducing the contacts during the whole evolution, we can allow for a <em>quarantine</em> period during which the contact is reduced. Results for a quarantine of 30 days with a reduction of 70% in individuals contact can be seen bellow.</p>
 <figure>
-    <img src="/images/epidemics/quarantine.png"/> <figcaption>
+    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/quarantine.png"/> <figcaption>
             <h4>Evolution of populations during a 30 day quarantine with 70% reduction in contact.</h4>
         </figcaption>
 </figure>
 
 <figure>
-    <img src="/images/epidemics/Infected-quarantine.png"/> <figcaption>
+    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/Infected-quarantine.png"/> <figcaption>
             <h4>Evolution of infected individuals during a 30 day quarantine with 70% reduction in contact.</h4>
         </figcaption>
 </figure>
 
 <p>Finally, we fitted our simple SEIR model to the first 30 days of the COVID-19 outbreak in Brasília (capital city of Brazil). The fit was done performing a simple least squares method with a Nelder-Mead method for minimization. The data we used was for the cumulative number of infected individuals and we could estimate the basic reproduction number for this period. Data was gathered from <a href="https://covid.saude.gov.br/">here</a>. The fitted curve can be seen bellow.</p>
 <figure>
-    <img src="/images/epidemics/fit-To-Data.png"/> <figcaption>
+    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/fit-To-Data.png"/> <figcaption>
             <h4>Cumulative Infected Individuals for the city of Brasília in the first 30 days of COVID-19 outbreak. Points represent the actual data and the red curve is our fitted model. The fitted basic reproduction number was approximately 1.34.</h4>
         </figcaption>
 </figure>
