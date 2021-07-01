@@ -13,7 +13,7 @@
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://brunobvr.github.io/my_portfolio/post/projectmushroom/</guid>
-      <description>In this project we dig into the mushroom data set. With very simple algorithms (decision trees) we can archive that sweat 100% accuracy. To make the experience more fun, a streamlit app is created that let&amp;rsquo;s you control a few hyperparameters of the model to see how you can maximize accuracy. If you reach 100% you get some cool balloons (yay!).
+      <description>In this project we dig into the mushroom data set. With very simple algorithms (decision trees) we can archive that sweet 100% accuracy. To make the experience more fun, a streamlit app is created that let&amp;rsquo;s you control a few hyperparameters of the model to see how you can maximize accuracy. If you reach 100% you get some cool balloons (yay!).
 The mushroom data set has been contributed to the UCI Machine Learning over 30 years ago.</description>
     </item>
     

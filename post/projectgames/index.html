@@ -7,7 +7,7 @@
     <title>Project Games: Metacritic Video Games data and recommender | Bruno V. Ribeiro - Home</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Scraping metacritic video games data and exploring it.">
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.84.4" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -33,19 +33,15 @@
     <meta property="og:title" content="Project Games: Metacritic Video Games data and recommender" />
 <meta property="og:description" content="Scraping metacritic video games data and exploring it." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://brunobvr.github.io/my_portfolio/post/projectgames/" />
+<meta property="og:url" content="https://brunobvr.github.io/my_portfolio/post/projectgames/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-19T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-03-19T00:00:00+00:00" /><meta property="og:site_name" content="Bruno V. Ribeiro - Home" />
+
 <meta itemprop="name" content="Project Games: Metacritic Video Games data and recommender">
-<meta itemprop="description" content="Scraping metacritic video games data and exploring it.">
-<meta itemprop="datePublished" content="2021-03-19T00:00:00+00:00" />
+<meta itemprop="description" content="Scraping metacritic video games data and exploring it."><meta itemprop="datePublished" content="2021-03-19T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-03-19T00:00:00+00:00" />
 <meta itemprop="wordCount" content="527">
-
-
-
-<meta itemprop="keywords" content="Scraping,Dash,Recommender," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="Scraping,Dash,Recommender," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project Games: Metacritic Video Games data and recommender"/>
 <meta name="twitter:description" content="Scraping metacritic video games data and exploring it."/>
 
@@ -238,14 +234,12 @@ Requires <code>requests</code>, <code>bs4.BeautifulSoup</code>, <code>re</code> 
 <h2 id="basic-eda-and-data-cleaning">Basic EDA and data cleaning</h2>
 <p>Can be found on this <a href="https://github.com/BrunoBVR/projectGames/blob/main/project-Games-Cleaning-and-EDA.ipynb">notebook</a>.</p>
 <p>Interesting figures:</p>
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/games/diff.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/games/diff.png"/><figcaption>
             <h4>Distribution of difference between metascore and user score.</h4>
         </figcaption>
 </figure>
 
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/games/byYear.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/games/byYear.png"/><figcaption>
             <h4>From top to bottom: average user score, average metascore and number of released games per year.</h4>
         </figcaption>
 </figure>
@@ -255,8 +249,7 @@ Requires <code>requests</code>, <code>bs4.BeautifulSoup</code>, <code>re</code> 
 <h2 id="dashboard-for-data-exploration-and-recommender">Dashboard for data exploration and recommender</h2>
 <p>Inside the <a href="https://github.com/BrunoBVR/projectGames/tree/main/Dashboard">Dashboard</a> folder, there is a script named <a href="https://github.com/BrunoBVR/projectGames/blob/main/Dashboard/games-dash.py">games-dash.py</a> file for the creation of a multi-page dashboard using <strong>Dash</strong>. This dashboard uses most of the information in the EDA notebook and a simplified version of the content-based recommender (using only the top 1000 games ranked by meta score).</p>
 <p>Click <a href="https://games-dash.herokuapp.com/">here</a> to access the deployed dashboard.</p>
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/games/dash-visual.gif"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/games/dash-visual.gif"/><figcaption>
             <h4>Example usage of dash app.</h4>
         </figcaption>
 </figure>

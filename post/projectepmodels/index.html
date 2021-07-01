@@ -7,7 +7,7 @@
     <title>Project Epidemic Models: Basic Epidemic models done in Python | Bruno V. Ribeiro - Home</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="SIR and SEIR models with implementations from scratch and some data fitting.">
-    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="generator" content="Hugo 0.84.4" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -33,19 +33,15 @@
     <meta property="og:title" content="Project Epidemic Models: Basic Epidemic models done in Python" />
 <meta property="og:description" content="SIR and SEIR models with implementations from scratch and some data fitting." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://brunobvr.github.io/my_portfolio/post/projectepmodels/" />
+<meta property="og:url" content="https://brunobvr.github.io/my_portfolio/post/projectepmodels/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-10-20T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-10-20T00:00:00+00:00" /><meta property="og:site_name" content="Bruno V. Ribeiro - Home" />
+
 <meta itemprop="name" content="Project Epidemic Models: Basic Epidemic models done in Python">
-<meta itemprop="description" content="SIR and SEIR models with implementations from scratch and some data fitting.">
-<meta itemprop="datePublished" content="2020-10-20T00:00:00+00:00" />
+<meta itemprop="description" content="SIR and SEIR models with implementations from scratch and some data fitting."><meta itemprop="datePublished" content="2020-10-20T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-20T00:00:00+00:00" />
 <meta itemprop="wordCount" content="912">
-
-
-
-<meta itemprop="keywords" content="From scratch,numerical models," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="From scratch,numerical models," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project Epidemic Models: Basic Epidemic models done in Python"/>
 <meta name="twitter:description" content="SIR and SEIR models with implementations from scratch and some data fitting."/>
 
@@ -207,35 +203,30 @@
 <p>The <strong>SIR model</strong> is <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SIR/SIR.py">implemented</a> in OO style with options for integration with simple Euler scheme or with a second order Runge-Kutta scheme. Besides this straight integration, we implement a <a href="https://en.wikipedia.org/wiki/Gillespie_algorithm#:~:text=In%20probability%20theory%2C%20the%20Gillespie,was%20created%20by%20Joseph%20L.">Gillespie algorithm</a> to run stochastic experiments <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SIR/SIR-GP.py">here</a>. As this is a variant of a dynamic Monte Carlo method, we can run various experiments <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SIR/SIR_GP_MP.py">using multiprocessing</a> (from the <code>multiprocessing</code> python library).</p>
 <p>The <strong>SEIR model</strong> is <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SEIR/SEIR.py">implemented</a> in a functional way and we also included a <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SEIR/SEIR-GP.py">Gillespie run</a> of the model.</p>
 <p>To do a bit of visual exploring of the model, a <a href="https://github.com/BrunoBVR/EpidemicsModels/blob/master/SEIR/SEIR.ipynb">notebook</a> is provided for various scenarios of the SEIR model run. The fundamental curves for the populations in this model can be seen bellow.</p>
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/basicSEIR.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/basicSEIR.png"/><figcaption>
             <h4>Typical evolution of populations in the SEIR model.</h4>
         </figcaption>
 </figure>
 
 <p>We can simulate a reduction in contacts by reducing the <em>basic reproduction number (average of individuals infected by an infected individual during infectation)</em>. Results are shown in the evolution of infected individuals bellow.</p>
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/R-red.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/R-red.png"/><figcaption>
             <h4>Evolution of infected individuals with various values of reduction in the basic reproduction number.</h4>
         </figcaption>
 </figure>
 
 <p>Instead of reducing the contacts during the whole evolution, we can allow for a <em>quarantine</em> period during which the contact is reduced. Results for a quarantine of 30 days with a reduction of 70% in individuals contact can be seen bellow.</p>
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/quarantine.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/quarantine.png"/><figcaption>
             <h4>Evolution of populations during a 30 day quarantine with 70% reduction in contact.</h4>
         </figcaption>
 </figure>
 
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/Infected-quarantine.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/Infected-quarantine.png"/><figcaption>
             <h4>Evolution of infected individuals during a 30 day quarantine with 70% reduction in contact.</h4>
         </figcaption>
 </figure>
 
 <p>Finally, we fitted our simple SEIR model to the first 30 days of the COVID-19 outbreak in Brasília (capital city of Brazil). The fit was done performing a simple least squares method with a Nelder-Mead method for minimization. The data we used was for the cumulative number of infected individuals and we could estimate the basic reproduction number for this period. Data was gathered from <a href="https://covid.saude.gov.br/">here</a>. The fitted curve can be seen bellow.</p>
-<figure>
-    <img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/fit-To-Data.png"/> <figcaption>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/epidemics/fit-To-Data.png"/><figcaption>
             <h4>Cumulative Infected Individuals for the city of Brasília in the first 30 days of COVID-19 outbreak. Points represent the actual data and the red curve is our fitted model. The fitted basic reproduction number was approximately 1.34.</h4>
         </figcaption>
 </figure>

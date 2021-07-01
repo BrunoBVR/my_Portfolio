@@ -1,141 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://brunobvr.github.io/my_portfolio/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/eda/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/projectmushroom/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/streamlit/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/</loc>
     <lastmod>2021-03-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/dash/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/projectgames/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/projectludo/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/recommender/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/scraping/</loc>
     <lastmod>2021-03-19T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/covid-19/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</loc>
     <lastmod>2020-10-23T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/from-scratch/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/numerical-models/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/projectepmodels/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/academic/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/contact/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-  
 </urlset>
