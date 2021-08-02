@@ -40,7 +40,7 @@
 <meta itemprop="name" content="Project ATLA: Exploring transcripts from Avatar: The Last Airbender">
 <meta itemprop="description" content="Scraping and exploring transcripts from Avatar: The Last Airbender."><meta itemprop="datePublished" content="2021-08-01T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-08-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="633">
+<meta itemprop="wordCount" content="638">
 <meta itemprop="keywords" content="Scraping,Dash,EDA," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Project ATLA: Exploring transcripts from Avatar: The Last Airbender"/>
 <meta name="twitter:description" content="Scraping and exploring transcripts from Avatar: The Last Airbender."/>
@@ -252,6 +252,11 @@
 <p>For the remainder of the notebook I test some neural network architectures to try to improve the model with not much success. I tried basic ANN with TF-IDF vectorization, Word Embeddings, and CNN. The best performing architecture was Grid Searched for hyperparameter tuning and the while build can be found under <a href="https://github.com/BrunoBVR/projectATLA/blob/main/GridSearch-AangxKorra.py">GridSearch-AangxKorra.py</a>.</p>
 <h2 id="dashboarding">Dashboarding</h2>
 <p>I build a dashboard using <a href="https://plotly.com/dash/">plotly dash</a> to show part of the EDA as an interactive app. The code for the app can be found under the <a href="https://github.com/BrunoBVR/projectATLA/tree/main/dash-app">dash-app</a> folder and the deployed version can be visited <a href="https://atla-app.herokuapp.com/">here</a>.</p>
+<figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/atla/dash-working.gif"/><figcaption>
+            <h4>Example usage of dash app.</h4>
+        </figcaption>
+</figure>
+
 <h2 id="trying-multi-class-prediction-and-failing-horribly">Trying multi-class prediction and failing horribly&hellip;</h2>
 <p>The notebooks <a href="https://github.com/BrunoBVR/projectATLA/blob/main/Modeling.ipynb">Modeling.ipynb</a> and <a href="https://github.com/BrunoBVR/projectATLA/blob/main/Modeling-script.ipynb">Modeling-script.ipynb</a> are attempts at predicting lines from the top 10 characters with more lines. It started as a multi-class (10 classes) classification problem but I could not get a good model out. If you want to see me fail horribly at this task, the notebooks are a great place for it! Or, maybe you could have some ideas as to how to make it a reality and that would be awesome!</p>
 <p>Stay safe all!</p>
