@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Project ATLA: Exploring transcripts from Avatar: The Last Airbender</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectatla/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectatla/</guid>
+      <description>In this project I scrape the transcripts from the popular show Avatar: The Last Airbender from the fandom wiki. With this data, I do some basic EDA focusing on the character lines. I also included in this project the transcripts from The Legend of Korra. As a fun side project I build a classifier to identify lines corresponding to Aang or Korra. With this, we can put up an app to explore the data and let users input some text to predict if they &amp;ldquo;sound like&amp;rdquo; Aang or Korra.</description>
+    </item>
+    
+    <item>
       <title>Project Mushrooms: Fun with the mushroom dataset</title>
       <link>https://brunobvr.github.io/my_portfolio/post/projectmushroom/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
