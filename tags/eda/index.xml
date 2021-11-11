@@ -6,7 +6,17 @@
     <description>Recent content in EDA on Bruno V. Ribeiro - Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/eda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Toys: Exploring toys descriptions according to gender</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projecttoys/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projecttoys/</guid>
+      <description>Motivation 👨‍👧 I have a small (super cute) daughter. With children&amp;rsquo;s day arriving here in Brazil she was bombarded with all kinds of toys commercials in all possible media. Being in the &amp;ldquo;asking about everything&amp;rdquo; phase, she made a long list of questions regarding the toys she saw in these commercials and I was just fascinated by the amount and depth of them! Here are some of them:
+  🤷‍♀️ Why do all girls toys look the same?</description>
+    </item>
+    
     <item>
       <title>Project ATLA: Exploring transcripts from Avatar: The Last Airbender</title>
       <link>https://brunobvr.github.io/my_portfolio/post/projectatla/</link>

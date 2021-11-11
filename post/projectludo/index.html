@@ -7,7 +7,7 @@
     <title>Project Ludopedia: exploring relations between boardgames artists | Bruno V. Ribeiro - Home</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Scraping Boardgames site and exploring the data!">
-    <meta name="generator" content="Hugo 0.86.1" />
+    <meta name="generator" content="Hugo 0.89.2" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -259,7 +259,7 @@
 <li><code>ludo-dash-v01.py</code>: Considers games sharing more than one artist and the graph layout is built using the <code>cose</code> option (based on <a href="https://dl.acm.org/doi/10.1016/j.ins.2008.11.017">this</a> work).</li>
 <li><code>ludo-dash-v02.py</code>: Considers games sharing at least of artist. As this creates a far denser graph, I used a <code>grid</code> layout. However, the layout option can be changed in line 75:</li>
 </ul>
-<pre><code>layout={'name': 'grid'}
+<pre tabindex="0"><code>layout={'name': 'grid'}
 </code></pre><p>Some of the options include: <code>preset</code> (user defined positions), <code>random</code>, <code>circle</code>, <code>concentric</code>, <code>breadthfirst</code> and <code>cose</code>.</p>
 <figure><img src="https://github.com/BrunoBVR/my_portfolio/raw/main/images/ludo/dash-working.gif"/><figcaption>
             <h4>Example usage of dash app for the `ludo-dash-v01.py` script.</h4>
