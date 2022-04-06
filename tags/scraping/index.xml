@@ -6,7 +6,16 @@
     <description>Recent content in Scraping on Bruno V. Ribeiro - Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/scraping/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/scraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Arceus: Exploring Pokémon Legends: Arceus reviews from metacritic</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectarceus/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectarceus/</guid>
+      <description>Exploring Pokémon Legends: Arceus reviews Pokémon Legends: Arceus was released on January 28th, 2022 with a big promise: to change the pokémon formula. The games have been around since 1996 and together are the highest-grossing video game franchise today. Ever since that first contact with the amazing Pokémon Red/Blue, fans have mostly seen the same game concept in all mainline games: some young trainer taking on a villain team as she/he journeys to become the pokémon league champion.</description>
+    </item>
+    
     <item>
       <title>Project Toys: Exploring toys descriptions according to gender</title>
       <link>https://brunobvr.github.io/my_portfolio/post/projecttoys/</link>
