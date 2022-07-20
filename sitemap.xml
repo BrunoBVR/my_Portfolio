@@ -2,13 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://brunobvr.github.io/my_portfolio/tags/dash/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/</loc>
-    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/tags/eda/</loc>
-    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://brunobvr.github.io/my_portfolio/tags/nhl/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://brunobvr.github.io/my_portfolio/post/projectnhl/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://brunobvr.github.io/my_portfolio/tags/sql/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://brunobvr.github.io/my_portfolio/tags/</loc>
+    <lastmod>2022-07-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -27,18 +52,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://brunobvr.github.io/my_portfolio/tags/</loc>
-    <lastmod>2022-04-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://brunobvr.github.io/my_portfolio/post/projecttoys/</loc>
     <lastmod>2021-11-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://brunobvr.github.io/my_portfolio/tags/dash/</loc>
-    <lastmod>2021-08-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

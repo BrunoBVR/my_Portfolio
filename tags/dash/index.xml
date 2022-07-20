@@ -6,7 +6,19 @@
     <description>Recent content in Dash on Bruno V. Ribeiro - Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/dash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://brunobvr.github.io/my_portfolio/tags/dash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project NHL: Exploring NHL game data</title>
+      <link>https://brunobvr.github.io/my_portfolio/post/projectnhl/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://brunobvr.github.io/my_portfolio/post/projectnhl/</guid>
+      <description>Data for this project can be found in this kaggle link. According to the author:
+The data represents all the official metrics measured for each game in the NHL (from 200 to 2019). I intend to update it semi-regularly depending on development progress of my database server.
+We loaded the data into a SQLite database using the simple DB Browser for SQLite.
+Data exploration with SQL and Plotly Using our SQLite database we will answer exploratory questions using SQL queries.</description>
+    </item>
+    
     <item>
       <title>Project ATLA: Exploring transcripts from Avatar: The Last Airbender</title>
       <link>https://brunobvr.github.io/my_portfolio/post/projectatla/</link>
@@ -36,7 +48,7 @@ We will use Metacritic data to create a dataframe with data on games across all 
       <guid>https://brunobvr.github.io/my_portfolio/post/projectludo/</guid>
       <description>In this project we will go through our collected data from Ludopedia ranking of boardgames. We&amp;rsquo;ll perform basic data cleaning and EDA.
 The data was collected using the Scrapy framework. The scraper is found inside the scraper folder. The relevant files in this folder are:
- ludo/ludo/items.py: defines the features we&amp;rsquo;ll extract from the website. ludo/ludo/spiders/ludospider.py: defines the paths of each item of each game.  The final data set is pre-saved ins this repository under the name ludo/ludo/all_pages2.</description>
+ludo/ludo/items.py: defines the features we&amp;rsquo;ll extract from the website. ludo/ludo/spiders/ludospider.py: defines the paths of each item of each game. The final data set is pre-saved ins this repository under the name ludo/ludo/all_pages2.</description>
     </item>
     
     <item>
@@ -47,7 +59,7 @@ The data was collected using the Scrapy framework. The scraper is found inside t
       <guid>https://brunobvr.github.io/my_portfolio/post/projecthealthy/</guid>
       <description>In this project, I use data from food intake by countries along with data associated with the spread of COVID-19 and other health issues to help get new insights into the importance of nutrition and eating habits to combat spreading diseases.
 Data for this project is taken from this very interesting kaggle dataset. From the owner of the dataset:
- In this dataset, I have combined data of different types of food, world population obesity and undernourished rate, and global COVID-19 cases count from around the world in order to learn more about how a healthy eating style could help combat the Corona Virus.</description>
+In this dataset, I have combined data of different types of food, world population obesity and undernourished rate, and global COVID-19 cases count from around the world in order to learn more about how a healthy eating style could help combat the Corona Virus.</description>
     </item>
     
   </channel>
